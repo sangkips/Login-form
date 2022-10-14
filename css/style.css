@@ -1,0 +1,76 @@
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+	font-weight: normal;
+	background: #f8f9fd;
+	color: lighten;
+    padding: 7em 0;
+}
+a:hover{
+	text-decoration: none;
+	outline: rgb(186, 186, 206);
+	box-shadow:auto;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: sans-serif;
+	color: black;
+}
+
+.img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wrap{
+	width: 100%;
+	overflow: hidden;
+	background: white;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 10px 34px -15px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 10px 34px -15px rgba(0,0,0,0.24);
+	box-shadow: 0px 10px 34px -15px rgba(0,0,0,0.24);
+}
+.img,.login-wrap{
+	width: 50%;
+	}
+
+
+.form-control {
+	height: 48px;
+	background: white;
+	color: black;
+	font-size: 16px;
+	border-radius: 5px;
+	box-shadow: none;
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+.btn {
+	cursor: pointer;
+	box-shadow: noe;
+	font-size: 15px;
+	padding: 10px 20px;
+	}
+
+.btn-primary {
+	background: grey;
+	border: 1px solid;
+	color: white;
+    }
+
+.btn:hover {
+	border: 1px solid;
+	background: purple;
+	}
+
